@@ -2,7 +2,7 @@
 from setuptools import setup
 
 setup(
-    name='python-autochecklog',
+    name='pytest-autochecklog',
     description='automatically check condition and log all the checks',
     author='Steven LI',
     author_email='steven004@gmail.com',
@@ -20,7 +20,7 @@ setup(
         "Topic :: System :: Logging",
         "Programming Language :: Python :: 3"
     ],
-    version='0.1',
+    version='0.1.2',
     py_modules = ['auto_checklog'],
     entry_points = {
         'pytest11': [
